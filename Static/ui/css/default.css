@@ -138,13 +138,21 @@ nav[role=navigation] ul li a {
 	color:#000;
 	text-decoration:none;
 	text-transform:uppercase;
+	display:block;
+	padding-right:2px;
+}
+
+nav[role=navigation] ul li a:hover span {
+	padding:2px;
+	background-color:#666;
+	color:#fff;
 }
 
 nav[role=navigation] ul li#current a {
 	font-family: helvetica_lt_stdbold;
 }
 
-nav[role=navigation] ul li#current span {
+nav[role=navigation] ul li#current a span {
 	background-color:#666;
 	color:#fff;
 	padding:2px;
