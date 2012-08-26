@@ -90,10 +90,8 @@ div#wrapper {
 	background-color:#fff;
 	margin: 20px auto 0px auto;
 	width: 825px;
-	height: 1000px;
-	
+	height: 695px;
 	padding: 30px;
-	
 	-webkit-box-shadow:  0px 15px 15px 5px rgba(0, 0, 0, 1);
 	box-shadow:  0px 15px 15px 5px rgba(0, 0, 0, 1);	
 }
@@ -156,4 +154,61 @@ nav[role=navigation] ul li#current a span {
 	background-color:#666;
 	color:#fff;
 	padding:2px;
+}
+
+section[role=main] {
+	padding-top:30px;
+}
+
+section[role=main] article {
+	float:left;
+	width: 268px;
+	margin-left: 10px;
+}
+
+section[role=main] article:first-child {
+	width:824px;
+	float:none;
+	margin:0px 0px -38px 0px;
+}
+
+section[role=main] article:nth-child(2) {
+	margin:0px;
+}
+
+section[role=main] article:last-child {
+	width:231px;
+}
+
+section[role=main] article .overlay {
+	background-color: #131b28;
+	color: #fff;
+	padding-top:10px;
+	padding-left:15px;
+	width:253px;
+	height:38px;
+	position:relative;
+	bottom:48px;
+	background: rgb(19, 27, 40);
+	background: rgba(19, 27, 40, 0.7);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99131b28, endColorstr=#99131b28);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99131b28, endColorstr=#99131b28)";
+}
+
+section[role=main] article:last-child .overlay {
+	width:254px;
+}
+
+section[role=main] article:first-child .overlay {
+	width:809px;
+}
+
+section[role=main] article .overlay h1 {
+	font-family: helvetica_lt_stdbold;
+	font-size:14px;
+}
+
+section[role=main] article .overlay h2 {
+	font-family: helvetica_lt_std_lightregular;
+	font-size:12px;
 }
