@@ -110,6 +110,61 @@ header h1 {
 	padding-left: 15px;
 }
 
+footer {
+	margin: 0px auto;
+	width: 825px;
+	text-align: left;
+	color:#fff;
+	height:250px;
+}
+
+footer nav, footer > div {
+	display:block;
+	width:200px;
+	float:left;
+}
+
+footer p {
+	display:block;
+	width:150px;
+	float:right;
+	color:#fff;
+	text-transform:uppercase;
+	font-size:12px;
+	font-family: helvetica_lt_std_lightregular;	
+}
+
+footer h2 {
+	font-family: league_gothicregular;
+	text-transform: uppercase;
+	font-size: 24px;
+}
+
+footer ul {
+	margin-top: 20px;
+}
+
+footer ul li {
+	font-family: helvetica_lt_std_lightregular;
+	text-transform: uppercase;
+	font-size:12px;
+	margin-top:10px;
+}
+
+footer ul li ul {
+	margin-top: 0px;
+}
+
+footer ul li ul li {
+	margin-left: 15px;
+}
+
+footer ul li a {
+	font-family: helvetica_lt_stdbold;
+	color:#fff;
+	text-decoration:none;
+}
+
 nav[role=navigation] {
 	border-top:1px solid #000;
 	float:right;
