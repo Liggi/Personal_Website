@@ -56,11 +56,14 @@ body {
 	background: url('/ui/images/bg.png') repeat;
 }
 
+body.home div#wrapper {
+	height:695px;
+}
+
 div#wrapper {
 	background-color:#fff;
 	margin: 20px auto 0 auto;
 	width: 825px;
-	height: 695px;
 	padding: 30px;
 	-webkit-box-shadow:  0 15px 15px 5px rgba(0, 0, 0, 1);
 	box-shadow:  0 15px 15px 5px rgba(0, 0, 0, 1);	
@@ -71,7 +74,7 @@ header img {
 	float:left;
 }
 
-header h1 {
+h1 {
 	font-family: league_gothicregular;
 	text-transform: uppercase;
 	font-size: 36px;
@@ -80,8 +83,21 @@ header h1 {
 	padding-left: 15px;
 }
 
+section[role=complimentary] {
+	margin-top:20px;
+}
+
+section[role=complimentary] h1 {
+	margin-bottom:20px;
+}
+
+section[role=complimentary] img {
+	float:left;
+	width:412px;
+}
+
 footer {
-	margin: 0 auto;
+	margin: 20px auto 0 auto;
 	width: 825px;
 	text-align: left;
 	color:#fff;
@@ -215,7 +231,23 @@ nav[role=navigation] ul li#current a span {
 	padding:2px;
 }
 
+section h1{
+	float:none;
+	padding-left:0;
+}
+
+section p {
+	font-family: helvetica_lt_std_lightregular;
+	font-size:12px;	
+	margin-top:10px;
+	line-height:18px;
+}
+
 div#main {
+	padding-top:30px;
+}
+
+section[role=main] {
 	padding-top:30px;
 }
 
@@ -223,6 +255,7 @@ div#main article {
 	float:left;
 	width: 268px;
 	margin-left: 10px;
+	
 }
 
 div#main article a {
@@ -233,7 +266,7 @@ div#main article a {
 div#main article:first-child {
 	width:824px;
 	float:none;
-	margin:0 0 -38px 0;
+	margin:0 0 -38px 0;	
 }
 
 div#main article:nth-child(2) {
@@ -247,7 +280,7 @@ div#main article:last-child {
 div#main article hgroup {
 	background-color: #131b28;
 	color: #fff;
-	padding-top:10px;
+	padding-top:6px;
 	padding-left:15px;
 	width:253px;
 	height:38px;
@@ -270,6 +303,10 @@ div#main article:first-child hgroup {
 div#main article hgroup h1 {
 	font-family: helvetica_lt_stdbold;
 	font-size:14px;
+	padding-top:0;
+	padding-left:0;	
+	text-transform:inherit;
+	float:none;
 }
 
 div#main article hgroup h2 {
