@@ -313,3 +313,92 @@ div#main article hgroup h2 {
 	font-family: helvetica_lt_std_lightregular;
 	font-size:12px;
 }
+
+section[role=complimentary] .obsessions {
+	position:relative;
+}
+
+section[role=complimentary] .obsessions div h2 {
+	font-family: league_gothicregular;
+	text-transform: uppercase;
+	font-size: 36px;
+	color:#fff;
+	text-align:right;
+	width:250px;
+}
+
+section[role=complimentary] .obsessions div h3 {
+	font-family: helvetica_lt_std_lightregular;
+	font-size:12px;
+	text-transform:uppercase;
+	color:#fff;
+	width:250px;
+	text-align:right;
+}
+
+section[role=complimentary] .obsessions .overlay2 h2, section[role=complimentary] .obsessions .overlay4 h2 {
+	font-family: league_gothicregular;
+	text-transform: uppercase;
+	font-size: 36px;
+	color:#fff;
+	text-align:left;
+	width:250px;
+}
+
+section[role=complimentary] .obsessions .overlay2 h3, section[role=complimentary] .obsessions .overlay4 h3 {
+	font-family: helvetica_lt_std_lightregular;
+	font-size:12px;
+	text-transform:uppercase;
+	color:#fff;
+	width:250px;
+	text-align:left;
+}
+
+section[role=complimentary] .obsessions div
+{
+	position:absolute;
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.7);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#77000000, endColorstr=#77000000);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#77000000, endColorstr=#77000000)";	
+}
+
+section[role=complimentary] .obsessions .overlay1
+{
+	display:none;
+	top:0px;
+	left:0px;
+	width:262px;
+	height:100px;
+	padding: 100px 0px 0px 150px;	
+}
+
+section[role=complimentary] .obsessions .overlay2 {
+	display:none;
+	position:absolute;
+	top:0px;
+	left:412px;
+	width:392px;
+	height:100px;
+	padding: 100px 0px 0px 20px;		
+}
+
+section[role=complimentary] .obsessions .overlay3 {
+	display:none;
+	position:absolute;
+	top:198px;
+	left:0px;
+	width:262px;
+	height:180px;	
+	padding: 20px 0px 0px 150px;	
+}
+
+section[role=complimentary] .obsessions .overlay4 {
+	display:none;
+	position:absolute;
+	top:198px;
+	left:412px;
+	width:392px;
+	height:180px;
+	padding: 20px 0px 0px 20px;		
+}
