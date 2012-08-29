@@ -1,0 +1,404 @@
+/* CSS Reset */
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+/* End CSS Reset */
+
+/* Fonts */
+@font-face {
+    font-family: 'helvetica_lt_stdbold';
+    src: url('/ui/fonts/helveticaltstd-bold-webfont.eot');
+    src: url('/ui/fonts/helveticaltstd-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/ui/fonts/helveticaltstd-bold-webfont.woff') format('woff'),
+         url('/ui/fonts/helveticaltstd-bold-webfont.ttf') format('truetype'),
+         url('/ui/fonts/helveticaltstd-bold-webfont.svg#helvetica_lt_stdbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'helvetica_lt_std_lightregular';
+    src: url('/ui/fonts/helveticaltstd-light-webfont.eot');
+    src: url('/ui/fonts/helveticaltstd-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/ui/fonts/helveticaltstd-light-webfont.woff') format('woff'),
+         url('/ui/fonts/helveticaltstd-light-webfont.ttf') format('truetype'),
+         url('/ui/fonts/helveticaltstd-light-webfont.svg#helvetica_lt_std_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'league_gothicregular';
+    src: url('/ui/fonts/league_gothic-webfont.eot');
+    src: url('/ui/fonts/league_gothic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/ui/fonts/league_gothic-webfont.woff') format('woff'),
+         url('/ui/fonts/league_gothic-webfont.ttf') format('truetype'),
+         url('/ui/fonts/league_gothic-webfont.svg#league_gothicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/* End Fonts */
+
+body {
+	background: url('/ui/images/bg.png') repeat;
+}
+
+body.home div#wrapper {
+	height:695px;
+}
+
+div#wrapper {
+	background-color:#fff;
+	margin: 20px auto 0 auto;
+	width: 825px;
+	padding: 30px;
+	-webkit-box-shadow:  0 15px 15px 5px rgba(0, 0, 0, 1);
+	box-shadow:  0 15px 15px 5px rgba(0, 0, 0, 1);	
+}
+
+header img {
+	vertical-align:middle;
+	float:left;
+}
+
+h1 {
+	font-family: league_gothicregular;
+	text-transform: uppercase;
+	font-size: 36px;
+	float:left;
+	padding-top:10px;
+	padding-left: 15px;
+}
+
+section[role=complimentary] {
+	margin-top:20px;
+}
+
+section[role=complimentary] h1 {
+	margin-bottom:20px;
+}
+
+section[role=complimentary] img {
+	float:left;
+	width:412px;
+}
+
+footer {
+	margin: 20px auto 0 auto;
+	width: 825px;
+	text-align: left;
+	color:#fff;
+	height:250px;
+	zoom:1;
+}
+
+footer nav, footer > div {
+	display:block;
+	width:200px;
+	float:left;
+}
+
+footer p {
+	display:block;
+	width:125px;
+	float:right;
+	color:#fff;
+	text-transform:uppercase;
+	font-size:12px;
+	font-family: helvetica_lt_std_lightregular;	
+}
+
+footer h2 {
+	font-family: league_gothicregular;
+	text-transform: uppercase;
+	font-size: 24px;
+}
+
+footer ul {
+	margin-top: 20px;
+}
+
+footer ul li {
+	font-family: helvetica_lt_std_lightregular;
+	text-transform: uppercase;
+	font-size:12px;
+	margin-top:10px;
+}
+
+footer ul li ul {
+	margin-top: 0;
+}
+
+footer ul li ul li {
+	margin-left: 15px;
+}
+
+footer ul li a {
+	font-family: helvetica_lt_stdbold;
+	color:#fff;
+	text-decoration:none;
+}
+
+footer ul li a:hover {
+	color:#aaa;
+
+    -webkit-transition: color 100ms ease-in-out;
+    -moz-transition: color 100ms ease-in-out;
+    -o-transition: color 100ms ease-in-out;
+    -ms-transition: color 100ms ease-in-out;
+    transition: color 100ms ease-in-out;
+}
+
+footer ul li a img {
+	opacity: 1;
+}
+
+footer ul li a:hover img {
+	opacity: 0.7;
+	
+    -webkit-transition: opacity 200ms ease-in-out;
+    -moz-transition: opacity 200ms ease-in-out;
+    -o-transition: opacity 200ms ease-in-out;
+    -ms-transition: opacity 200ms ease-in-out;
+    transition: opacity 200ms ease-in-out;	
+}
+
+nav[role=navigation] {
+	border-top:1px solid #000;
+	float:right;
+	width:575px;
+	height:50px;
+}
+
+nav[role=navigation] ul {
+	float:right;
+	width: 500px;
+	margin-top:10px;
+}
+
+nav[role=navigation] ul li {
+	float: left;
+	width:100px;
+	text-align:right;
+	font-family: helvetica_lt_std_lightregular;
+	font-size:12px;		
+	line-height:20px;
+}
+
+nav[role=navigation] ul li a {
+	color:#000;
+	text-decoration:none;
+	text-transform:uppercase;
+	display:block;
+	padding-right:2px;
+}
+
+nav[role=navigation] ul li a span {
+	padding:2px;
+}
+
+nav[role=navigation] ul li a:hover span {
+	background-color:#666;
+	color:#fff;
+	
+    -webkit-transition: background-color 250ms ease-in-out, color 250ms ease-in-out;
+    -moz-transition: background-color 250ms ease-in-out, color 250ms ease-in-out;
+    -o-transition: background-color 250ms ease-in-out, color 250ms ease-in-out;
+    -ms-transition: background-color 250ms ease-in-out, color 250ms ease-in-out;
+    transition: background-color 250ms ease-in-out, color 250ms ease-in-out;		
+}
+
+nav[role=navigation] ul li#current a {
+	font-family: helvetica_lt_stdbold;
+}
+
+nav[role=navigation] ul li#current a span {
+	background-color:#666;
+	color:#fff;
+	padding:2px;
+}
+
+section h1{
+	float:none;
+	padding-left:0;
+}
+
+section p {
+	font-family: helvetica_lt_std_lightregular;
+	font-size:12px;	
+	margin-top:10px;
+	line-height:18px;
+}
+
+div#main {
+	padding-top:30px;
+}
+
+section[role=main] {
+	padding-top:30px;
+}
+
+div#main article {
+	float:left;
+	width: 268px;
+	margin-left: 10px;
+	
+}
+
+div#main article a {
+	text-decoration:none;
+	color:#fff;
+}
+
+div#main article:first-child {
+	width:824px;
+	float:none;
+	margin:0 0 -38px 0;	
+}
+
+div#main article:nth-child(2) {
+	margin:0;
+}
+
+div#main article:last-child {
+	width:231px;
+}
+
+div#main article hgroup {
+	background-color: #131b28;
+	color: #fff;
+	padding-top:6px;
+	padding-left:15px;
+	width:253px;
+	height:38px;
+	position:relative;
+	bottom:48px;
+	background: rgb(19, 27, 40);
+	background: rgba(19, 27, 40, 0.7);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99131b28, endColorstr=#99131b28);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99131b28, endColorstr=#99131b28)";
+}
+
+div#main article:last-child hgroup {
+	width:254px;
+}
+
+div#main article:first-child hgroup {
+	width:809px;
+}
+
+div#main article hgroup h1 {
+	font-family: helvetica_lt_stdbold;
+	font-size:14px;
+	padding-top:0;
+	padding-left:0;	
+	text-transform:inherit;
+	float:none;
+}
+
+div#main article hgroup h2 {
+	font-family: helvetica_lt_std_lightregular;
+	font-size:12px;
+}
+
+section[role=complimentary] .obsessions {
+	position:relative;
+}
+
+section[role=complimentary] .obsessions div h2 {
+	font-family: league_gothicregular;
+	text-transform: uppercase;
+	font-size: 36px;
+	color:#fff;
+	text-align:right;
+	width:250px;
+}
+
+section[role=complimentary] .obsessions div h3 {
+	font-family: helvetica_lt_std_lightregular;
+	font-size:12px;
+	text-transform:uppercase;
+	color:#fff;
+	width:250px;
+	text-align:right;
+}
+
+section[role=complimentary] .obsessions .overlay2 h2, section[role=complimentary] .obsessions .overlay4 h2 {
+	font-family: league_gothicregular;
+	text-transform: uppercase;
+	font-size: 36px;
+	color:#fff;
+	text-align:left;
+	width:250px;
+}
+
+section[role=complimentary] .obsessions .overlay2 h3, section[role=complimentary] .obsessions .overlay4 h3 {
+	font-family: helvetica_lt_std_lightregular;
+	font-size:12px;
+	text-transform:uppercase;
+	color:#fff;
+	width:250px;
+	text-align:left;
+}
+
+section[role=complimentary] .obsessions div
+{
+	position:absolute;
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.7);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#77000000, endColorstr=#77000000);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#77000000, endColorstr=#77000000)";	
+}
+
+section[role=complimentary] .obsessions .overlay1
+{
+	display:none;
+	top:0px;
+	left:0px;
+	width:262px;
+	height:100px;
+	padding: 100px 0px 0px 150px;	
+}
+
+section[role=complimentary] .obsessions .overlay2 {
+	display:none;
+	position:absolute;
+	top:0px;
+	left:412px;
+	width:392px;
+	height:100px;
+	padding: 100px 0px 0px 20px;		
+}
+
+section[role=complimentary] .obsessions .overlay3 {
+	display:none;
+	position:absolute;
+	top:198px;
+	left:0px;
+	width:262px;
+	height:180px;	
+	padding: 20px 0px 0px 150px;	
+}
+
+section[role=complimentary] .obsessions .overlay4 {
+	display:none;
+	position:absolute;
+	top:198px;
+	left:412px;
+	width:392px;
+	height:180px;
+	padding: 20px 0px 0px 20px;		
+}
