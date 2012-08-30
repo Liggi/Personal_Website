@@ -402,3 +402,81 @@ section[role=complimentary] .obsessions .overlay4 {
 	height:180px;
 	padding: 20px 0px 0px 20px;		
 }
+
+body#blog section[role=main] article {
+	margin-top:20px;
+	position:relative;
+}
+
+body#blog section[role=main] article:first-of-type {
+	margin-top:10px;
+}
+
+body#blog section[role=main] article img {
+	width:824px;
+	height:300px;
+}
+
+body#blog section[role=main] article .overlay {
+	height:75px;
+	width:824px;
+	color:#fff;
+	position:absolute;
+	bottom:5px;
+	background: rgb(19, 27, 40);
+	background: rgba(19, 27, 40, 0.7);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99131b28, endColorstr=#99131b28);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99131b28, endColorstr=#99131b28)";	
+}
+
+body#blog section[role=main] article .overlay hgroup {
+	font-family: league_gothicregular;
+	padding-left: 20px;
+	padding-top: 9px;
+	float:left;
+	width:150px;
+}
+
+body#blog section[role=main] article .overlay h2 {
+	font-size: 24px;
+}
+
+body#blog section[role=main] article .overlay h3 {
+	font-size: 20px;
+	color:#ddd;
+}
+
+body#blog section[role=main] article a {
+	display:block;
+	position:absolute;
+	bottom:100px;
+	right:1px;
+	width:150px;
+	height:30px;
+	font-family: helvetica_lt_stdbold;
+	font-size:14px;
+	padding-top:12px;
+	padding-left:20px;
+	color:#ddd;	
+	text-decoration:none;	
+	background: rgb(19, 27, 40);
+	background: rgba(19, 27, 40, 0.7);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99131b28, endColorstr=#99131b28);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99131b28, endColorstr=#99131b28)";
+}
+
+body#blog section[role=main] article a:hover {
+	color:#fff;	
+	background: rgb(19, 27, 40);
+	background: rgba(19, 27, 40, 1);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99131b28, endColorstr=#99131b28);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99131b28, endColorstr=#99131b28)";
+}
+
+body#blog section[role=main] article .overlay p {
+	font-family: helvetica_lt_std_lightregular;
+	float:left;
+	border-left:1px solid #fff;
+	width:630px;
+	padding-left:20px;
+}
