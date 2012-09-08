@@ -181,6 +181,7 @@ nav[role=navigation] {
 	float:right;
 	width:575px;
 	height:50px;
+	position:relative;
 }
 
 nav[role=navigation] ul {
@@ -521,3 +522,68 @@ body#blog section[role=main] nav a:last-child {
 	background: url('/ui/images/left-arrow.gif') no-repeat 0px 2px;	
 }
 
+nav[role=navigation] .tab-overlay {
+	position:absolute;
+	right:0px;
+	border-top:2px solid #ccc;
+	border-right:2px solid #ccc;
+	border-left:2px solid #ccc;
+	background-color:#131b28;
+	height:50px;
+	width:75px;
+	float:right;
+	color:#fff;
+	font-family: helvetica_lt_stdbold;
+	font-size:12px;
+	text-transform:uppercase;	
+	text-align:right;
+	padding-right:15px;
+	padding-top:10px;	
+	z-index: 20;	
+}
+
+nav[role=navigation] .contact-overlay {
+	border:2px solid #ccc;
+	background-color:#131b28;	
+	height:260px;
+	width:300px;
+	position:absolute;
+	right:0px;
+	top:60px;
+	z-index: 10;	
+
+}
+
+nav[role=navigation] .contact-overlay input {
+	height:25px;
+	width:185px;
+	margin-top:10px;
+	margin-left:15px;
+	border:2px solid #ccc;
+	font-family: helvetica_lt_std_lightregular;
+	font-size:12px;
+	padding-left:5px;
+}
+
+nav[role=navigation] .contact-overlay textarea {
+	height:135px;
+	width:265px;
+	margin-top:10px;
+	margin-left:15px;
+	border:2px solid #ccc;
+	font-family: helvetica_lt_std_lightregular;
+	font-size:12px;
+	padding-left:5px;
+	padding-top:5px;
+}
+
+nav[role=navigation] .contact-overlay a {
+	float:right;
+	margin-right:15px;
+	margin-top:2px;
+	color:#fff;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-family: helvetica_lt_stdbold;
+	font-size:12px;
+}
