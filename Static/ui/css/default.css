@@ -524,22 +524,24 @@ body#blog section[role=main] nav a:last-child {
 
 nav[role=navigation] .tab-overlay {
 	position:absolute;
-	right:0px;
+	right:-10px;
 	border-top:2px solid #ccc;
 	border-right:2px solid #ccc;
 	border-left:2px solid #ccc;
 	background-color:#131b28;
-	height:50px;
+	height:51px;
 	width:75px;
 	float:right;
 	color:#fff;
-	font-family: helvetica_lt_stdbold;
 	font-size:12px;
+	font-family: helvetica_lt_std_lightregular;
 	text-transform:uppercase;	
 	text-align:right;
-	padding-right:15px;
-	padding-top:10px;	
-	z-index: 20;	
+	padding-right:11px;
+	line-height:19px;
+	padding-top:9px;	
+	z-index: 20;
+	display:none;	
 }
 
 nav[role=navigation] .contact-overlay {
@@ -548,10 +550,10 @@ nav[role=navigation] .contact-overlay {
 	height:260px;
 	width:300px;
 	position:absolute;
-	right:0px;
+	right:-10px;
 	top:60px;
 	z-index: 10;	
-
+	display:none;	
 }
 
 nav[role=navigation] .contact-overlay input {
@@ -586,4 +588,10 @@ nav[role=navigation] .contact-overlay a {
 	text-transform:uppercase;
 	font-family: helvetica_lt_stdbold;
 	font-size:12px;
+}
+
+nav[role=navigation] .contact-overlay a:last-of-type {
+	font-size:10px;
+	color:#ccc;
+	padding-top:2px;
 }
